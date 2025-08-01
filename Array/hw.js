@@ -7,8 +7,15 @@
 
 // 2.
 
-let touristDestination = ['paharpur', 'mohasthangor', 'joupurhat'];
-touristDestination.push('cox bazar'); 
-touristDestination.push('japhlong','sundarban'),
-touristDestination.pop('sundarban')
-console.log(touristDestination);
+// let touristDestination = ['paharpur', 'mohasthangor', 'joupurhat'];
+// touristDestination.push('cox bazar'); 
+// touristDestination.push('japhlong','sundarban'),
+// touristDestination.pop('sundarban')
+// console.log(touristDestination);
+
+
+
+// 3.
+
+let books = ['math', 'english', 'bangla', 'physics'];
+console.log(books.includes());
