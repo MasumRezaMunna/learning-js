@@ -17,5 +17,16 @@
 
 // 3.
 
+// let books = ['math', 'english', 'bangla', 'physics'];
+// console.log(books.includes('english'));
+
+
+// 4.
+
+
 let books = ['math', 'english', 'bangla', 'physics'];
-console.log(books.includes('english'));
+console.log(Array.isArray('math'));
+console.log(Array.isArray('english'));
+console.log(Array.isArray('bangla'));
+console.log(Array.isArray('physics'));
+console.log(Array.isArray(books));
