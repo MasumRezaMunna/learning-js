@@ -24,9 +24,20 @@
 // 4.
 
 
-let books = ['math', 'english', 'bangla', 'physics'];
-console.log(Array.isArray('math'));
-console.log(Array.isArray('english'));
-console.log(Array.isArray('bangla'));
-console.log(Array.isArray('physics'));
-console.log(Array.isArray(books));
+// let books = ['math', 'english', 'bangla', 'physics'];
+// console.log(Array.isArray('math'));
+// console.log(Array.isArray('english'));
+// console.log(Array.isArray('bangla'));
+// console.log(Array.isArray('physics'));
+// console.log(Array.isArray(books));
+
+
+// 5.
+
+let friuts = ['apple', 'komla', 'licchu', 'kathal', 'kola'];
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let total = friuts.concat(numbers);
+console.log(friuts);
+console.log(numbers);
+console.log(total)
