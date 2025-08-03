@@ -12,9 +12,9 @@ const bottle = {
 
 
 const subjects = {
-    name = 'biology',
-    teacher = 'rasheda mam',
-    examDate = '30 feb',
+    name : 'biology',
+    teacher : 'rasheda mam',
+    examDate : '30 feb',
     chapters: ['first', 'second', 'third'],
     exams: {
         name: 'finale exam',
