@@ -33,4 +33,4 @@ function addAll (a, b, c, d, e){
     console.log(total);
 }
 addAll(3, 4, 6, 7);
-addAll(3, 4, 6, 7, 8);
+addAll(3, 4, 6, 7, 8);``
