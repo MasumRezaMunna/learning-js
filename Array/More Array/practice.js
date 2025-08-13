@@ -35,3 +35,15 @@
 // console.log(evenNumbers);
 
 
+
+// Task-03
+
+// var numbers = ['Tom', 'Tim', 'Tin', 'Tik'];
+// var output = '';
+// for(num of numbers){
+//     output += num +'';
+// }
+
+// output = output.trim();
+// console.log(`'${output}'`);
+
