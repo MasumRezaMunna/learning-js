@@ -3,18 +3,18 @@
  * return the sum of even numbers
  */
 
-function evenNumberOnly(numbers) {
-    const evens = [];
-  for (const number of numbers) {
-    if (number % 2 === 0){
-        console.log(number);
-        evens.push(number);
-    }
-}
-return evens;
-}
+// function evenNumberOnly(numbers) {
+//     const evens = [];
+//   for (const number of numbers) {
+//     if (number % 2 === 0){
+//         console.log(number);
+//         evens.push(number);
+//     }
+// }
+// return evens;
+// }
 
-const numbers = [5, 8, 91, 24, 6];
+// const numbers = [5, 8, 91, 24, 6];
 // const evens = evenNumberOnly(numbers);
 // console.log(evens)
 
@@ -23,6 +23,7 @@ const numbers = [5, 8, 91, 24, 6];
 
 
 
+const numbers = [5, 8, 91, 24, 6];
 function sumOfEvenNumbers (numbers){
     let sum = 0;
     for(const number of numbers){

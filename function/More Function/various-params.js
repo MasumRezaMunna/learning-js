@@ -1,18 +1,21 @@
-function evenSizedString(str){
-    const size = str.length;
-    if(size % 2 === 0){
-        console.log('even size')
-        return true;
-    }else{
-        console.log('odd size')
-        return false;
-    }
-    console.log(str, size);
+// function evenSizedString(str){
+//     const size = str.length;
+//     if(size % 2 === 0){
+//         console.log('even size')
+//         return true;
+//     }else{
+//         console.log('odd size')
+//         return false;
+//     }
+//     console.log(str, size);
 
-}
+// }
 
 // evenSizedString('Dhaka');
 // evenSizedString('Faka');
+
+
+
 
 function doubleOrTriple(number, doDouble){
     if(doDouble === true){
@@ -24,19 +27,19 @@ function doubleOrTriple(number, doDouble){
     }
 }
 
-// console.log(doubleOrTriple(5, true));
-// console.log(doubleOrTriple(5, false));
+console.log(doubleOrTriple(5, true));
+console.log(doubleOrTriple(5, false));
 
 
-function numberOfElements(numbers){
-    const len = numbers.length;
-    return len;
-}
+// function numberOfElements(numbers){
+//     const len = numbers.length;
+//     return len;
+// }
 
 // numberOfElements([12, 45, 78, 45, 121254, 4, 5])
 
 
-function getAge (person){
-    const age = person.age;
-    return age;
-}
+// function getAge (person){
+//     const age = person.age;
+//     return age;
+// }
