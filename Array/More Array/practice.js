@@ -47,3 +47,21 @@
 // output = output.trim();
 // console.log(`'${output}'`);
 
+
+
+// Task-04
+
+// const statement = 'I am a hard working person';
+// let words = statement.split(" ");
+// let reversedWords = [];
+
+// for (let i = words.length - 1; i >= 0; i-- ){
+//     reversedWords.push(words[i]);
+// }
+
+// let result = reversedWords.join(" ");
+// console.log(`'${result}'`);
+
+
+
+
