@@ -83,13 +83,29 @@
 // task-06
 
 
-const studentsInfo = [
-    { name: "John", marks: 85},
-    { name: "Alice", marks: 90}
-]
+// const studentsInfo = [
+//     { name: "John", marks: 85},
+//     { name: "Alice", marks: 90}
+// ]
 
-for(stu of studentsInfo){
-    const person = stu;
-    console.log(person.name  + ' Scored ' +  person.marks)
-}
+// for(stu of studentsInfo){
+//     const person = stu;
+//     console.log(person.name  + ' Scored ' +  person.marks)
+// }
 
+
+
+
+
+//  Task-07
+
+
+
+let array = [
+    [1, 2],
+    [3, 4],
+    [5,6]
+];
+
+array[1][0] = 99;
+console.log(array);
