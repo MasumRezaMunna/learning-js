@@ -64,4 +64,19 @@
 
 
 
+// Task-05
+
+// const numbers = [1, 2, 3];
+// const compNumbers = [];
+
+// for( const num of numbers){
+//     compNumbers.push(num);
+// }
+
+// compNumbers[0] = 99;
+
+// console.log('Original:',numbers);
+// console.log('Copy:',compNumbers);
+
+
 
