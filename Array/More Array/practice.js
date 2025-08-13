@@ -80,3 +80,16 @@
 
 
 
+// task-06
+
+
+const studentsInfo = [
+    { name: "John", marks: 85},
+    { name: "Alice", marks: 90}
+]
+
+for(stu of studentsInfo){
+    const person = stu;
+    console.log(person.name  + ' Scored ' +  person.marks)
+}
+
