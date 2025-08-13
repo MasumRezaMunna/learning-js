@@ -13,11 +13,11 @@ const reversed = [];
 
 // for (const num of numbers){
 //     reversed.unshift(num);
-//     // console.log(num)
+//     console.log(num)
 // }
 // console.log(reversed);
 
+
 console.log(numbers);
 const result = numbers.reverse();
-console.log(numbers);
 console.log(result)

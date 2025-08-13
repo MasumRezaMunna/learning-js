@@ -7,8 +7,8 @@ const employees = [
     { name : 'Asifa', designation: 'Web Dev', salary: 29000}
 ]
 
-employees[0].name = 'Ashraf'
-console.log(employees)
+// employees[0].name = 'Ashraf'
+// console.log(employees)
 
 // console.log(employees[0]);
 
@@ -18,8 +18,8 @@ console.log(employees)
 //     console.log(employee.salary, employee.designation);
 // }
 
-// for (const emp of employees){
-//     const person = emp;
-//     const personInfo = person.name + ' : ' + person.salary;
-//     console.log(personInfo)
-// }
+for (const emp of employees){
+    const person = emp;
+    const personInfo = person.name + ' : ' + person.salary;
+    console.log(personInfo)
+}

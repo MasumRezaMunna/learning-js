@@ -10,12 +10,15 @@ const exam_marks = [
 // console.log(numbers[0]);
 // console.log(exam_marks[0])
 // console.log(exam_marks[0][0])
+
 // const first_class_marks = exam_marks[0];
 // console.log(first_class_marks[0])
-exam_marks[0][1] = 66;
-exam_marks[1].pop()
-exam_marks[1].push(44)
+
+// exam_marks[0][1] = 66;
+// exam_marks[1].pop()
+// exam_marks[1].push(44)
 // console.log(exam_marks)
-for(const marks of exam_marks){
-    console.log(marks);
-}
+
+// for(const marks of exam_marks){
+//     console.log(marks);
+// }
